@@ -1,0 +1,4 @@
+# pynput: A Python library that allows you to control and monitor input devices like the keyboard and mouse programmatically.
+
+pynput==1.7.6
+
