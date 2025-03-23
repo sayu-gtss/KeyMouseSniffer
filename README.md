@@ -5,6 +5,16 @@ A Python-based input monitoring tool that includes a keylogger, mouse listener, 
 
 ---
 
+## 🚀 How to Use
+
+### 🔧 Prerequisite
+Make sure you have Python installed. Then install the required library:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## 1. keyLogger.py
 - Records every key you press and appends it to keyLogFile.txt.
 - To use:
@@ -41,11 +51,21 @@ A Python-based input monitoring tool that includes a keylogger, mouse listener, 
 
 ---
 
-## 🚀 How to Use
+## pynput Library Highlights 
+- pynput.keyboard.Controller → Simulates typing.
+- pynput.keyboard.Listener → Captures keyboard input.
+- pynput.mouse.Controller → Moves mouse.
+- pynput.mouse.Listener → Tracks mouse movement.
+⚠️ Note: You cannot use both keyboard.Controller and mouse.Controller in the same script simultaneously.
 
-### 🔧 Prerequisite
-Make sure you have Python installed. Then install the required library:
-```bash
-pip install -r requirements.txt
+---
 
+## ✅ Requirements
+See requirements.txt
+
+🛠️ Author
+Sayuni Dewapriya
+Cybersecurity Undergraduate
+📧 Email: sayusahas@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/sahasna-dewapriya-b8a69924b/ 
 
