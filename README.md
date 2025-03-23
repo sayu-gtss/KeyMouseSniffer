@@ -28,7 +28,7 @@ A Python-based input monitoring tool that includes a keylogger, mouse listener, 
   - python mouseController.py
 - Enter x and y values when prompted. The mouse will jump to that position.
 
-### Listener 
+## Listener 
 - #### Keyboard Listener:
   - _Listener(on_press=function_name)_
   - Captures keystrokes and logs them.
